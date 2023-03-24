@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, rgb(149, 122, 200), rgb(250, 249, 246));
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.card {
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+.nav-item {
+  align-self: flex-end;
+  color: #6a2b6d;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-item1 {
+  align-self: flex-end;
+  color: #6a2b6d;
+  text-decoration: none;
+  
+}
+
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+
+@font-face {
+  font-family: myFont1;
+  src: url(Roboto-Regular.ttf);
+}
+ h1 {
+  font-family: myFont1;
+ }
+
+ @font-face {
+  font-family: myFont2;
+  src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+ h2 {
+  font-family: myFont2;
+  font-size: small;
+ }
+
+ nav{
+  background-color: rgb(186, 186, 228);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 0px; 
+ }
+
+ .nav-item {
+  margin: 20px;
+ }
+ .column {
+  float: left;
+  width: 33.3%;
+  padding: 15px;
+  padding-top: 20px;
+  text-align: center;
+}
+.city {
+ height: 25%;
+ background-color: rgb(223, 217, 210);
+ padding: 15px;
+ border-radius: 10px;
+}
+.city-image{
+  width: 90%;
+  padding-top: 15px;
+  border-radius: 10px
+
+}
+.mapview {
+  text-align: center;
+}
+.mapbtn {
+  margin-top: 30px; 
+  padding-bottom: 30px;
+}
+
+.form-example {
+  text-align: center;
+  margin-top: 10px; 
+  padding-bottom: 10px;
+} 
+
+label {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+}
+.submit {
+  padding: 3px 10px;
+    background-color: rgb(154, 88, 143);
+    color: white
+}
+#message{
+  height: 100px;
+  width: 300px;
+}

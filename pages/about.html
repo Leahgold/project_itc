@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="../css/style.css" rel="stylesheet" />
+     <link href="../css/css/fontawesome.css" rel="stylesheet">
+     <link href="../css/css/brands.css" rel="stylesheet">
+     <link href="../css/css/solid.css" rel="stylesheet">
+</head>
+<body>
+    <div>About Page</div>
+    <section>
+        <nav>
+          
+          <a href="../index.html" class="nav-item">Home</a>
+          <a href="about.html" class="nav-item">About</a>
+          <a href="contact.html" class="nav-item">Contact</a>
+       
+        </nav>
+        
+      </section>
+      <section>
+        <div class="column">Column 1
+            <div class="city">Hello, my name is Leah, I started coding back in the days when not everyone had email, 
+                and the first web pages I created were full of tables that were displayed differently in different browsers. 
+              <img class="city-image" src="../images/image_c1.jpg">
+            </div>
+        </div>
+        <div class="column">Column 2<div class="city">I'm doing this little website as part of my self-study exercises 
+            for Israel Tech Challenge course, 
+            and despite having some experience in this field, I still have to learn quite a lot of new things for me.
+            <img class="city-image" src="../images/image_c2.jpg">
+        </div></div> 
+        <div class="column">Column 3<div class="city">Here below I will try to show how scrolling pages work. I do it using the example 
+            of illustrations with city maps 
+            that will be loaded into my frame from an external source Google Maps using javascript.
+            <img class="city-image" src="../images/image_c3.jpg">
+        </div></div>
+        <div class="mapview">
+            <iframe id="map-frame" width=96% height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="mapbtn">  
+            <button id="prev-btn">
+            prev
+            </button>
+            <button id="next-btn">
+            next
+            </button>
+            </div>
+        </div>
+      </section>
+      <script src="../js/about.js"></script>
+</body>
+</html>
